@@ -43,6 +43,7 @@ const Hero = () => {
                 
                 `}>
                     <Image
+                        alt="young student"
                         src="/young-student.png"
                         width={760}
                         height={580}

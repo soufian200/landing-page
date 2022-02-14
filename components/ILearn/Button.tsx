@@ -5,9 +5,10 @@ type ButtonType = {
     color?: string
     px?: string
     m?: string
+    bg?: string
 }
-const Button = ({ label, color = "blue-700", px = "px-8", m = "m-1" }: ButtonType) => {
-    return <button className={`bg-${color} ${px} py-4 ${m} rounded-xl font-bold text-${color === "transparent" ? "blue-700" : "white"} hover:opacity-80`} >
+const Button = ({ label, bg = "bg-blue-700", color = "text-blue-700", px = "px-8", m = "m-1" }: ButtonType) => {
+    return <button className={`${bg} ${px} py-4 ${m} rounded-xl font-bold ${bg === "bg-transparent" ? color : "text-white"} hover:opacity-80`} >
         {label}
     </button>
 }

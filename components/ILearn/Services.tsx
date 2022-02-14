@@ -29,12 +29,12 @@ const Services = () => {
             <div>
                 <div className={`flex flex-col items-center md:mb-14`}>
                     <Heading title="What We Provide" />
-                    <Caption txt="A best and cheapest way of getting know learning to make a better tomorrow for your sefl" />
+                    <Caption center txt="A best and cheapest way of getting know learning to make a better tomorrow for your sefl" />
                 </div>
                 <div className={`flex items-center flex-col lg:flex-row justify-evenly`} >
                     {
-                        services.map((service) => {
-                            return <div className={`w-[260px] h-[260px] flex items-center justify-center flex-col p-5 rounded-xl`} >
+                        services.map((service, index) => {
+                            return <div key={index} className={`w-[260px] h-[260px] flex items-center justify-center flex-col p-5 rounded-xl`} >
                                 <div className={`${service.bg} shadow-2xl text-white p-4 rounded-2xl mb-10`}>
                                     {service.Icon}
                                 </div>

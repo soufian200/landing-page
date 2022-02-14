@@ -5,11 +5,12 @@ import Caption from "./Caption"
 import Heading from "./Heading"
 
 const Testimonial = () => {
-    return <section className={` py-10`}>
+    return <section className={` py-10 pb-20`}>
         <Container>
             <div className={`w-full flex items-center lg:items-start flex-col lg:flex-row`}>
                 <div className={` lg:w-1/2`}>
                     <Image
+                        alt="img1"
                         src="/img1.png"
                         width={1000}
                         height={1000}
@@ -20,6 +21,7 @@ const Testimonial = () => {
                         title="Trusted By Best Teachers"
                     />
                     <Caption
+                        center
                         txt={`There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form. `}
                     />
                     <div className="pt-10">

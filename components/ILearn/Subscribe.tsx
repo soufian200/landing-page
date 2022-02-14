@@ -8,7 +8,7 @@ const Subscribe = () => {
         <Container>
             <div>
                 <div className="flex mb-10 flex-col items-center justify-center">
-                    <Heading title="Subscribe Now" />
+                    <Heading title="Subscribe Now" styles="text-4xl" />
                     <Caption txt="The passages of Lorem Ipsum some form." />
                 </div>
                 <div className={`flex justify-center`} >

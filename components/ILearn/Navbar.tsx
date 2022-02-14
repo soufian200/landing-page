@@ -110,7 +110,7 @@ const Navbar = () => {
                 </div>
                 <ul className={`lg:flex text-center mt-4 lg:mt-0`} >
                     {
-                        links.map((link, index) => <li><a
+                        links.map((link, index) => <li key={index} ><a
                             className={`
                             text-2xl 
                             block 
@@ -123,8 +123,6 @@ const Navbar = () => {
                             lg:text-lg
                             lg:m-0
                             lg:mx-5
-                           
-                         
                             `}
                             href={`#${link.href}`}>{link.label}</a></li>)
                     }
@@ -139,7 +137,7 @@ const Navbar = () => {
                 lg:flex-row
                 lg:w-auto
                 `} >
-                    <Button label="Login" color="transparent" />
+                    <Button label="Login" bg="bg-transparent" />
                     <Button label="Sign Up" />
                 </div>
             </div>

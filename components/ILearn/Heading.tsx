@@ -8,7 +8,7 @@ type HeadingType = {
 
 const Heading = ({ title, styles, center = false }: HeadingType) => {
     return <h1 className={classNames(`
-    text-4xl
+   text-5xl
     font-bold
     text-sky-900 
     mb-5 

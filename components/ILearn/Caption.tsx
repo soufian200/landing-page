@@ -8,6 +8,7 @@ type CaptionType = {
 
 const Caption = ({ txt, styles, center = false }: CaptionType) => {
 
-    return <p className={classNames(`max-w-sm md:max-w-lg text-slate-500 mb-10 text-lg md:text-xl  ${styles}`, { 'text-center': center })} >{txt}</p>
+    return <p className={classNames(`max-w-sm 
+    md:max-w-lg text-slate-500 mb-10 text-lg md:text-xl  ${styles}`, { 'text-center': center })} >{txt}</p>
 }
 export default Caption;

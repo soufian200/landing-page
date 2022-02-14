@@ -1,4 +1,5 @@
 import type { NextPage } from 'next'
+import Footer from '../../components/ILearn/Footer'
 import Hero from '../../components/ILearn/Hero'
 import Services from '../../components/ILearn/Services'
 import Subscribe from '../../components/ILearn/Subscribe'
@@ -11,6 +12,7 @@ const ILearn: NextPage = () => {
         <Services />
         <Testimonial />
         <Subscribe />
+        <Footer />
     </main>
 }
 
