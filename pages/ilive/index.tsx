@@ -1,17 +1,12 @@
 import type { NextPage } from 'next'
 import Hero from '../../components/ilive/Hero'
+import Properties from '../../components/ilive/Properties'
 
 const ILive: NextPage = () => {
 
     return <main>
         <Hero />
-        {/* <h1 className={`text-8xl`}>Hello World</h1>
-        <h1 className={`text-8xl`}>Hello World</h1>
-        <h1 className={`text-8xl`}>Hello World</h1>
-        <h1 className={`text-8xl`}>Hello World</h1>
-        <h1 className={`text-8xl`}>Hello World</h1>
-        <h1 className={`text-8xl`}>Hello World</h1>
-        <h1 className={`text-8xl`}>Hello World</h1> */}
+        <Properties />
     </main>
 }
 
