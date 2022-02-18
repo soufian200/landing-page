@@ -1,5 +1,5 @@
 import React from "react"
-import Container from "../Container"
+import Container from "./Container"
 import Button from "./Button"
 import Navbar from "./Navbar"
 import Image from "next/image"
@@ -23,7 +23,7 @@ const Hero = () => {
                     lg:flex-row
                     lg:items-start
                      `}>
-                    <h1 className={` text-sm font-bold`} >Book Your Course Now 🎓💥 </h1>
+                    <h1 className={` text-sm font-bold text-sky-900  `} >Book Your Course Now 🎓💥 </h1>
                     <h1 className={` text-5xl font-bold mt-5 mb-14 text-center sm:text-6xl lg:text-left lg:text-7xl`} >A Great Place To Learn What You Want</h1>
                     <p className={`max-w-sm text-slate-500 mb-10 text-xl text-center lg:text-left`} >
                         A best and cheapest way of getting know learning to make a better tomorrow for your sefl

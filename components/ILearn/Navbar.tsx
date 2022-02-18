@@ -1,4 +1,4 @@
-import Container from "../Container"
+import Container from "./Container"
 import Button from "./Button"
 import Logo from "./Logo"
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";

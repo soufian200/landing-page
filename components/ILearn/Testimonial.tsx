@@ -1,5 +1,5 @@
 import Image from "next/image"
-import Container from "../Container"
+import Container from "./Container"
 import Button from "./Button"
 import Caption from "./Caption"
 import Heading from "./Heading"

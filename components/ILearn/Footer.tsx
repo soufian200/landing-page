@@ -1,4 +1,4 @@
-import Container from "../Container";
+import Container from "./Container";
 import Caption from "./Caption";
 import Logo from "./Logo";
 

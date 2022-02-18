@@ -1,5 +1,5 @@
 import { AiFillHeart, AiOutlineDesktop, AiOutlineMessage } from "react-icons/ai"
-import Container from "../Container"
+import Container from "./Container"
 import Caption from "./Caption";
 import Heading from "./Heading";
 
