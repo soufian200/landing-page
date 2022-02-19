@@ -33,7 +33,7 @@ const HowItWorks = () => {
 
 
 
-    return <section className={`pb-20  pt-10`} >
+    return <section className={`pb-10 lg:pb-20  pt-10`} >
         <Container>
             <ColWrapper>
                 <>
@@ -48,7 +48,7 @@ const HowItWorks = () => {
                         </div>
                     </Col>
                     <Col styles=" " >
-                        <div className={`p-10 lg:ml-10`} >
+                        <div className={`p-0 py-10 lg:p-10 lg:ml-10`} >
                             <Heading title="How It Works" styles="text-center lg:text-left" />
                             <Caption styles="lg:max-w-lg  text-center lg:text-left" txt={`There are passages of available, the majority have suffered alteration in some form.`} />
                             <div className={`xl:pl-14 mt-12`} >

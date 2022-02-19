@@ -7,11 +7,11 @@ import Image from "next/image"
 const GetStarted = () => {
     return <section className={`py-12`}>
         <Container>
-            <ColWrapper styles={`bg-orange-300 p-10 rounded-3xl px-20`} >
+            <ColWrapper styles={`bg-orange-300 p-5 lg:p-10 rounded-3xl lg:px-20`} >
                 <>
                     <Col>
                         <div className={`py-10 text-center lg:text-left`}>
-                            <Heading title="Get Started With Us" styles="lg:text-6xl" />
+                            <Heading title="Get Started With Us" styles="text-3xl lg:text-6xl" />
                             <p className={`text-secondary300 max-w-lg mt-5 mb-10`}>
                                 There are passages of available, the majority have suffered alteration in some form.
                             </p>
@@ -20,11 +20,8 @@ const GetStarted = () => {
                     </Col>
                     <Col styles="relative hidden lg:block">
                         <div className={`absolute
-
-lg:-top-24 
-lg:right-0
-
-                        
+                        lg:-top-24 
+                        lg:right-0
                         xl:-top-40 
                         xl:right-0
                         

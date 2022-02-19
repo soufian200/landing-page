@@ -21,7 +21,7 @@ const FooterCol = ({ title, list, styles }: FooterColType) => {
     `}>
         <Heading
             title={title}
-            styles="text-base lg:text-base mb-3"
+            styles="text-base lg:text-base mb-3 text-red-400"
         />
 
         <ul className="mt-5">

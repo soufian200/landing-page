@@ -49,7 +49,7 @@ const Properties = () => {
 
 
     return <section className={`
-    py-28
+    pt-28
     px-3
 
     lg:pt-48

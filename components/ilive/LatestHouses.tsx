@@ -72,7 +72,8 @@ const LatestHouses = () => {
                 </div>
 
                 <div className={`
-            pb-20
+            pb-4
+            lg:pb-20
                             flex
                            mt-14
                            flex-col
