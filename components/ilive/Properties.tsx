@@ -2,7 +2,7 @@ import Container from "../ILearn/Container";
 import { BiBed, BiBath } from "react-icons/bi"
 import { GrLocation } from "react-icons/gr"
 import Image from "next/image";
-import Button from "./Button";
+import Heading from "./Heading";
 import Caption from "./Caption";
 
 const Properties = () => {
@@ -52,7 +52,8 @@ const Properties = () => {
     py-28
     px-3
 
-    lg:py-48
+    lg:pt-48
+    lg:pb-28
     lg:px-0
     `} >
         <Container>
@@ -63,7 +64,7 @@ const Properties = () => {
             items-center
             text-center
             `} >
-                    <Button title="Latest Properties For Sale" />
+                    <Heading title="Latest Properties For Sale" />
                     <Caption txt={`There are passages of available, the majority have suffered alteration in some form.
             Getting know tomorrow for your sefl`} />
                 </div>

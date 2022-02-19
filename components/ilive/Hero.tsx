@@ -114,7 +114,7 @@ const Hero = () => {
                     `}>
                         <div className={`flex`}>
                             {
-                                ["Buy", "Sell", "Rent"].map((i, index) => <h1
+                                ["Buy", "Sell", "Rent"].map((i, index) => <h1 key={index}
                                     className={classNames(` rounded-xl cursor-pointer
                                 ${index === 1 ? `bg-primary text-white ` : `text-slate-400 hover:text-primary`} 
                                 font-bold py-2 px-8 mx-1`,
