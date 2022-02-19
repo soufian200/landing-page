@@ -1,6 +1,7 @@
 import { useState } from "react"
 import { CgMenuRight, CgClose } from "react-icons/cg"
 import Container from "../ilive/Container"
+import Logo from "./Logo"
 
 const Navbar = () => {
 
@@ -62,7 +63,7 @@ const Navbar = () => {
                 lg:border-none
                 lg:bg-transparent
                 `}>
-                    <h1 className="font-bold text-4xl" >iLive</h1>
+                    <Logo />
 
                     <div className={` 
                     text-slate-600 
@@ -98,7 +99,7 @@ const Navbar = () => {
 
                     `}
                 >
-                    <h1 className="font-bold text-4xl " >iLive</h1>
+                    <Logo />
 
                     <div className={`
                      fixed

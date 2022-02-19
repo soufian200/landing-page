@@ -48,7 +48,7 @@ const LatestHouses = () => {
     ];
 
 
-    return <section className={`py-20`}>
+    return <section className={`py-0 lg:py-20 `}>
         <Container>
             <div>
                 <div className={`flex
@@ -87,7 +87,9 @@ const LatestHouses = () => {
                         `}>
                     {
                         properties.map((item, index) => {
-                            return <div className={`
+                            return <div
+                                key={index}
+                                className={`
                             w-80
                             bg-white
                             hover:shadow-xl

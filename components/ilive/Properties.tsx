@@ -83,7 +83,9 @@ const Properties = () => {
                         `}>
                     {
                         properties.map((item, index) => {
-                            return <div className={`
+                            return <div
+                                key={index}
+                                className={`
                             w-80
                             bg-white
                             hover:shadow-xl

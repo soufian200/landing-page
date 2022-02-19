@@ -33,7 +33,7 @@ const HowItWorks = () => {
 
 
 
-    return <section className={`pb-20 pt-10`} >
+    return <section className={`pb-20  pt-10`} >
         <Container>
             <ColWrapper>
                 <>

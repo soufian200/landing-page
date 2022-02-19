@@ -1,4 +1,5 @@
 import type { NextPage } from 'next'
+import Footer from '../../components/ilive/Footer'
 import GetStarted from '../../components/ilive/GetStarted'
 import Hero from '../../components/ilive/Hero'
 import HowItWorks from '../../components/ilive/HowItWorks'
@@ -13,6 +14,7 @@ const ILive: NextPage = () => {
         <HowItWorks />
         <LatestHouses />
         <GetStarted />
+        <Footer />
     </main>
 }
 
