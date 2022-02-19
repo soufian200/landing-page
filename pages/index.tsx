@@ -14,8 +14,6 @@ const Home: NextPage = () => {
       <link rel="icon" href="/favicon.ico" />
     </Head>
     <Container>
-
-
       <div className='bg-white shadow-md p-10 '>
         <Heading title='Landing Pages Preview' styles='text-4xl' />
         <div className='flex flex-col lg:flex-row mt-10'>
