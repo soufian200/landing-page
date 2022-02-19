@@ -48,22 +48,22 @@ const HowItWorks = () => {
                         </div>
                     </Col>
                     <Col styles=" " >
-                        <div className={`p-10 ml-10`} >
-                            <Heading title="How It Works" />
-                            <Caption styles="max-w-lg" txt={`There are passages of available, the majority have suffered alteration in some form.`} />
-                            <div className={`pl-14 mt-12`} >
+                        <div className={`p-10 lg:ml-10`} >
+                            <Heading title="How It Works" styles="text-center lg:text-left" />
+                            <Caption styles="lg:max-w-lg  text-center lg:text-left" txt={`There are passages of available, the majority have suffered alteration in some form.`} />
+                            <div className={`xl:pl-14 mt-12`} >
                                 {
                                     steps.map((item, index) => {
-                                        return <div key={index} className={`max-w-md flex items-center`}>
+                                        return <div key={index} className={` flex items-center`}>
                                             <div className={`w-1/5 flex self-start  `}>
                                                 <div className={`w-16 h-16  border-2 relative border-dashed ${item.border} flex items-center justify-center rounded-full `}>
                                                     {
-                                                        index < steps.length - 1 && <div className={`w-2 h-16 absolute -bottom-16 left-1/2 transform -translate-x-1/2  ${item.border} border-l-2 border-dashed`}></div>
+                                                        index < steps.length - 1 && <div className={`hidden xl:block w-2 h-16 absolute -bottom-16 left-1/2 transform -translate-x-1/2  ${item.border} border-l-2 border-dashed`}></div>
                                                     }
                                                     <Heading title={(index + 1).toString()} styles={`text-3xl mb-0 ${item.color}`} />
                                                 </div>
                                             </div>
-                                            <div className={`w-4/5 `} >
+                                            <div className={`w-4/5 ml-5  `} >
                                                 <Heading
                                                     title={item.title}
                                                     styles={`text-2xl`}

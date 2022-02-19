@@ -53,7 +53,7 @@ const Navbar = () => {
                 justify-between 
                 items-center 
                 bg-white 
-                px-3
+                px-5
                 py-3
                 border-b
                 
